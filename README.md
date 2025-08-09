@@ -21,6 +21,8 @@ A simple **Streamlit** app to fetch, snapshot and compare YouTube video stats an
 app.py
 config/google_api_key_dummy.txt
 config/spotify_credentials_dummy.txt
+secrets/google_api_key.txt
+secrets/spotify_credentials.txt
 docs/get_spotify_api_steps.md
 notebooks/youtube_data_extractor.ipynb
 README.md
@@ -31,7 +33,7 @@ youtube_analysis.py
 **Notes:**
 
 - `config/*_dummy.txt` are example files showing the expected format for credentials. They contain placeholder values and are safe to keep in repo.
-- Your real keys should **not** be committed. See *Setup* below.
+- Your real keys should be placed under the secrets folder and should **not** be committed. See *Setup* below.
 
 ---
 
