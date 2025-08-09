@@ -34,7 +34,7 @@ def extract_datetime_from_filename(filename: str) -> str:
 # -----------------------
 # YouTube key (single-line file)
 try:
-    with open("google_api_key.txt", "r", encoding="utf-8") as f:
+    with open("secrets/google_api_key.txt", "r", encoding="utf-8") as f:
         youtube_api_key = f.read().strip()
 except Exception:
     youtube_api_key = ""
@@ -44,7 +44,7 @@ except Exception:
 spotify_client_id = ""
 spotify_client_secret = ""
 try:
-    with open("spotify_credentials.txt", "r", encoding="utf-8") as f:
+    with open("secrets/spotify_credentials.txt", "r", encoding="utf-8") as f:
         for line in f:
             if "=" in line:
                 k, v = line.strip().split("=", 1)

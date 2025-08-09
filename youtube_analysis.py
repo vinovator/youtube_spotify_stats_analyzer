@@ -4,7 +4,7 @@ import requests
 from datetime import datetime
 
 # --- Load API Key from file ---
-with open("google_api_key.txt", "r") as f:
+with open("secrets/google_api_key.txt", "r") as f:
     youtube_api_key = f.read().strip()
 
 # --- Category Mapping ---
