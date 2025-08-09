@@ -7,6 +7,12 @@ A simple **Streamlit** app to fetch, snapshot and compare YouTube video stats an
 
 <img title="a Extract stats from YouTube video links" alt="Alt text" src="/img/youtube_video_extract.png">
 
+<img title="a Compare YouTube Videos" alt="Alt text" src="/img/compare_youtube_videos.png">
+
+<img title="a Extract Spotify Tracks" alt="Alt text" src="/img/spotify_track_extract.png">
+
+<img title="a Compare Spotify Tracks" alt="Alt text" src="/img/spotify_track_compare.png">
+
 ---
 
 ## Quick links
