@@ -5,6 +5,8 @@ A simple **Streamlit** app to fetch, snapshot and compare YouTube video stats an
 - YouTube: paste multiple video URLs → fetch title, views, likes, comments, duration, tags, etc. → preview table → download CSV snapshot with timestamp → compare two snapshots to see changes.
 - Spotify: either paste **track URLs/URIs** or **type track titles (search)** (you can include artist name for better accuracy) → fetch metadata + audio features → preview table → download CSV snapshot → compare two snapshots to see changes in popularity / artist followers.
 
+<img title="a Extract stats from YouTube video links" alt="Alt text" src="/img/youtube_video_extract.png">
+
 ---
 
 ## Quick links
