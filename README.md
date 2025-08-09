@@ -27,7 +27,7 @@ A Streamlit web app that allows you to:
    ```bash
    git clone https://github.com/vinovator/youtube_stats_analyzer.git
    cd youtube_stats_analyzer
-````
+
 
 2. **Create a virtual environment** (optional but recommended)
 
