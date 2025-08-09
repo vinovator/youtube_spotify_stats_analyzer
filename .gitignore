@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Virtualenv
+venv/
+.env
+.env.*
+
+# Secrets & outputs
+secrets/
+snapshots/
+google_api_key.txt
+spotify_credentials.txt
+
+# Streamlit local settings
+.streamlit/
+
+# Logs
+*.log
