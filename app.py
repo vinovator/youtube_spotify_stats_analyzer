@@ -313,6 +313,10 @@ with tab_sp:
     input_mode = st.radio("Input mode", ["Track URLs/URIs", "Track Titles (search)"], index=0)
     sp_input = st.text_area("Enter items (one per line)", height=200, placeholder="Either spotify URLs/URIs or titles like 'Blinding Lights - The Weeknd'")
 
+    # --- UX tip shown when Track Titles mode is selected ---
+    if input_mode == "Track Titles (search)":
+        st.caption("💡 Tip: include the artist name with the track title for better search accuracy — for example: `Blinding Lights - The Weeknd`.")
+
     if st.button("Analyze Spotify Tracks", key="analyze_sp"):
         if not sp_input.strip():
             st.error("Please enter at least one line.")
